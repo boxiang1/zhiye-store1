@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZHIYE (执冶) | Eastern Artisanal Crafts & B2B Wholesale</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#121212',
+                            card: '#1A1A1A',
+                            gold: '#D4AF37',
+                            goldHover: '#AA8822',
+                            light: '#F5F2EB',
+                            muted: '#A3A3A3'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Cinzel', 'serif'],
+                        sans: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #121212; color: #F5F2EB; font-family: 'Montserrat', sans-serif; }
+        .gold-border { border: 1px solid rgba(212, 175, 55, 0.3); }
+        .gold-gradient { background: linear-gradient(135deg, #D4AF37 0%, #AA8822 100%); }
+    </style>
+</head>
+<body class="bg-brand-dark text-brand-light antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-brand-dark/95 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3">
+                <img src="assets/images/执冶logo-1.jpg" alt="ZHIYE Logo" class="h-10 w-auto rounded object-cover" onerror="this.onerror=null; this.src='https://placehold.co/100x100/1a1a1a/D4AF37?text=ZHIYE';">
+                <div>
+                    <span class="text-2xl font-serif font-bold tracking-widest text-brand-gold block">ZHIYE 执冶</span>
+                    <span class="text-[10px] text-brand-muted tracking-wider uppercase block">By Shanghai Boxiang Industry Co., Ltd.</span>
+                </div>
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-brand-gold transition-colors">About ZHIYE</a>
+                <a href="#categories" class="hover:text-brand-gold transition-colors">Collections</a>
+                <a href="#b2b" class="hover:text-brand-gold transition-colors">B2B Partnership</a>
+                <a href="#contact" class="px-5 py-2 rounded border border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-black transition-all">Request Wholesale Catalog</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6 max-w-7xl mx-auto text-center min-h-[70vh] flex flex-col justify-center items-center">
+        <span class="text-brand-gold font-serif text-sm tracking-widest uppercase mb-4">Eastern Mindful Aesthetics · Global B2B Export</span>
+        <h1 class="text-4xl md:text-6xl font-serif font-bold tracking-tight mb-6 max-w-4xl leading-tight">
+            Curated Artisanal Treasures for Mindful Living Spaces
+        </h1>
+        <p class="text-brand-muted max-w-2xl text-base md:text-lg mb-10 leading-relaxed">
+            Connecting Western boutiques, galleries, and wellness studios with authentic Eastern heritage crafts. Low MOQ, bespoke customization, and seamless global logistics backed by Shanghai Boxiang Industry.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+            <a href="#categories" class="px-8 py-3.5 gold-gradient text-black font-semibold rounded hover:opacity-90 transition-all shadow-lg shadow-brand-gold/10">Explore Collections</a>
+            <a href="#contact" class="px-8 py-3.5 bg-brand-card text-brand-light font-medium rounded border border-white/20 hover:border-brand-gold transition-all">Inquire Wholesale Quote</a>
+        </div>
+    </section>
+
+    <!-- Product Categories Section -->
+    <section id="categories" class="py-20 bg-brand-card/50 border-t border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-brand-gold mb-4">Artisanal Categories</h2>
+                <p class="text-brand-muted max-w-xl mx-auto">Discover our 5 core craft categories handcrafted by master artisans.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                <!-- Porcelain -->
+                <div class="bg-brand-card rounded-lg overflow-hidden border border-white/10 hover:border-brand-gold/50 transition-all group">
+                    <div class="h-56 overflow-hidden bg-black/40">
+                        <img src="assets/images/categories/porcelain/1.jpg" alt="Porcelain & Ceramics" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x500/1a1a1a/D4AF37?text=Porcelain';">
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="font-serif font-semibold text-lg mb-1 text-brand-light">瓷器类</h3>
+                        <p class="text-xs text-brand-gold font-serif mb-2">Porcelain & Ceramics</p>
+                        <p class="text-xs text-brand-muted">Teaware, incense burners, and minimalist ceramic vessels.</p>
+                    </div>
+                </div>
+
+                <!-- Lacquerware -->
+                <div class="bg-brand-card rounded-lg overflow-hidden border border-white/10 hover:border-brand-gold/50 transition-all group">
+                    <div class="h-56 overflow-hidden bg-black/40">
+                        <img src="assets/images/categories/lacquerware/1.jpg" alt="Natural Lacquerware" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x500/1a1a1a/D4AF37?text=Lacquerware';">
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="font-serif font-semibold text-lg mb-1 text-brand-light">大漆类</h3>
+                        <p class="text-xs text-brand-gold font-serif mb-2">Natural Lacquerware</p>
+                        <p class="text-xs text-brand-muted">Traditional Urushi lacquer art, trays, and tea utensils.</p>
+                    </div>
+                </div>
+
+                <!-- Kintsugi -->
+                <div class="bg-brand-card rounded-lg overflow-hidden border border-white/10 hover:border-brand-gold/50 transition-all group">
+                    <div class="h-56 overflow-hidden bg-black/40">
+                        <img src="assets/images/categories/kintsugi/1.jpg" alt="Kintsugi Art" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x500/1a1a1a/D4AF37?text=Kintsugi';">
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="font-serif font-semibold text-lg mb-1 text-brand-light">金缮类</h3>
+                        <p class="text-xs text-brand-gold font-serif mb-2">Kintsugi Art</p>
+                        <p class="text-xs text-brand-muted">Golden repair ceramics embodying the philosophy of imperfection.</p>
+                    </div>
+                </div>
+
+                <!-- Beads -->
+                <div class="bg-brand-card rounded-lg overflow-hidden border border-white/10 hover:border-brand-gold/50 transition-all group">
+                    <div class="h-56 overflow-hidden bg-black/40">
+                        <img src="assets/images/categories/beads/1.jpg" alt="Mindful Beads" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x500/1a1a1a/D4AF37?text=Beads';">
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="font-serif font-semibold text-lg mb-1 text-brand-light">珠串类</h3>
+                        <p class="text-xs text-brand-gold font-serif mb-2">Mindful Beads</p>
+                        <p class="text-xs text-brand-muted">Meditation Mala beads, agarwood, and natural gemstone bracelets.</p>
+                    </div>
+                </div>
+
+                <!-- Cultural Crafts -->
+                <div class="bg-brand-card rounded-lg overflow-hidden border border-white/10 hover:border-brand-gold/50 transition-all group">
+                    <div class="h-56 overflow-hidden bg-black/40">
+                        <img src="assets/images/categories/crafts/1.jpg" alt="Cultural Crafts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x500/1a1a1a/D4AF37?text=Crafts';">
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="font-serif font-semibold text-lg mb-1 text-brand-light">其他文创</h3>
+                        <p class="text-xs text-brand-gold font-serif mb-2">Cultural Crafts</p>
+                        <p class="text-xs text-brand-muted">Zen home decor, scholar desk accents, and lifestyle accessories.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- B2B Section & Form -->
+    <section id="contact" class="py-20 px-6 max-w-4xl mx-auto">
+        <div class="bg-brand-card p-8 md:p-12 rounded-xl gold-border shadow-2xl">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-serif font-bold text-brand-gold mb-3">B2B Wholesale & Customization Inquiry</h2>
+                <p class="text-brand-muted text-sm">Please submit your inquiry below. Our team will send you the latest wholesale catalog within 24 hours.</p>
+            </div>
+            <form action="https://formspree.io/f/xbjnqzwe" method="POST" class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-brand-muted mb-2">Your Name *</label>
+                        <input type="text" name="name" required class="w-full bg-black/50 border border-white/10 rounded px-4 py-3 text-sm focus:border-brand-gold focus:outline-none transition-colors">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-brand-muted mb-2">Business Email *</label>
+                        <input type="email" name="email" required class="w-full bg-black/50 border border-white/10 rounded px-4 py-3 text-sm focus:border-brand-gold focus:outline-none transition-colors">
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-brand-muted mb-2">Company / Shop Name</label>
+                        <input type="text" name="company" class="w-full bg-black/50 border border-white/10 rounded px-4 py-3 text-sm focus:border-brand-gold focus:outline-none transition-colors">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-brand-muted mb-2">Category of Interest</label>
+                        <select name="category" class="w-full bg-black/50 border border-white/10 rounded px-4 py-3 text-sm focus:border-brand-gold focus:outline-none transition-colors text-brand-light">
+                            <option value="all">All Categories</option>
+                            <option value="porcelain">瓷器类 Porcelain</option>
+                            <option value="lacquerware">大漆类 Lacquerware</option>
+                            <option value="kintsugi">金缮类 Kintsugi</option>
+                            <option value="beads">珠串类 Beads</option>
+                            <option value="crafts">其他文创 Crafts</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-wider text-brand-muted mb-2">Message / Special Requirements</label>
+                    <textarea name="message" rows="4" class="w-full bg-black/50 border border-white/10 rounded px-4 py-3 text-sm focus:border-brand-gold focus:outline-none transition-colors" placeholder="Tell us about your business or requested quantities..."></textarea>
+                </div>
+                <button type="submit" class="w-full py-4 gold-gradient text-black font-semibold rounded hover:opacity-90 transition-all font-serif tracking-wider uppercase text-sm">
+                    Send Inquiry & Request Catalog
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-12 px-6 text-center text-xs text-brand-muted">
+        <p class="mb-2">Brand Owner: <span class="text-brand-light">ZHIYE (执冶)</span> | Corporate Entity: <span class="text-brand-light">Shanghai Boxiang Industry Co., Ltd. (上海博详实业有限公司)</span></p>
+        <p>© 2026 ZHIYE & Boxiang Industry. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
